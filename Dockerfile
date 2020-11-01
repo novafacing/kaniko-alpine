@@ -11,4 +11,5 @@ COPY --from=kaniko /kaniko /kaniko
 ENV HOME /root
 ENV USER /root
 ENV PATH /bin:/usr/bin:/usr/local/bin:/kaniko
-ENV SSL_CERT_DIR=/kaniko/ssl/certs
+ENV SSL_CERT_DIR /kaniko/ssl/
+ENV DOCKER_CONFIG /kaniko/.docker/
