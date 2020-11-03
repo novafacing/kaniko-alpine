@@ -1,5 +1,5 @@
 # Kaniko
-FROM gcr.io/kaniko-project/executor:debug as kaniko
+FROM gcr.io/kaniko-project/executor as kaniko
 
 # Install bash and git on Alpine
 FROM alpine:3
