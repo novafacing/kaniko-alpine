@@ -1,7 +1,7 @@
 # Kaniko
 FROM gcr.io/kaniko-project/executor:debug as kaniko
 
-# Install Git on Alpine
+# Install bash and git on Alpine
 FROM alpine:3
 RUN apk update
 RUN apk add bash git
