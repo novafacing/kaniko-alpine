@@ -1,5 +1,5 @@
 # Kaniko
-FROM gcr.io/kaniko-project/executor as kaniko
+FROM gcr.io/kaniko-project/executor:v1.12.1-debug as kaniko
 
 # Install bash and git on alpine
 # Coreutils required: https://github.com/bats-core/bats-core/issues/83
